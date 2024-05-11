@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Styled Buttons </title>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;  /* Added for vertical centering */
+  height: 100vh;        /* Added for vertical centering */
+  margin: 0;             /* Remove default margin for full viewport height */
+}
+body {
+  background-image: url("path/to/your/image.jpg");
+}
+
+
+button {
+  padding: 43px 70px;  /* Increase padding for larger size */
+  border: none;
+  cursor: pointer;
+  margin: 10px;  /* Add space between buttons */
+  font-size: 50px;
+}
+
+.uber {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  font-weight: bold;  /* Bold font for Uber button */
+  opacity: 81%;
+}
+
+.uber:hover {
+  opacity: 1;
+  background-color: black;
+}
+
+.amazon {
+  background-color: #ffd811;
+  color: black;
+  transition: all 0.3s ease;
+  border-radius: 50px;  /* Rounded corners for Amazon button */
+  padding: 40px 170px;
+  font-size: 43;
+}
+
+.amazon:hover {
+  background-color: #d9a433;
+}
+
+.github {
+  background-color: #02991d;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  border-radius: 12px;  /* Some rounded corners for Github button */
+  font-weight: bold;  /* Keep bold font for Github button */
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);  /* Box shadow for all sides */
+  
+}
+.github:hover {
+  background-color: #d9a433;
+}
+
+</style>
+</head>
+<body>
+  <button class="uber">Request now</button>
+  <button class="amazon">Add to Cart</button>
+  <button class="github">Sign up</button>
+</body>
+</html>
